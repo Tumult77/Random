@@ -7,7 +7,7 @@ contract MyToken {
     string public name;
     string public symbol;
     uint8 public decimals;
-    uint256 public totalSupply;
+    uint256 public totalSupply; 100
 
     /* This creates an array with all balances */
     mapping (address => uint256) public balanceOf;
